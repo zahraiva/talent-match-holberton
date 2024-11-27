@@ -1,0 +1,129 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove any default body margin */
+}
+
+.container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Adjust the width of the container */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-label {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.search-label.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.search-bar {
+  width: 80%; /* Center search bar */
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+  margin-bottom: 20px; /* Space below the search bar */
+}
+
+.search-bar.active {
+  transform: translateX(0); /* Slide effect on focus or when active */
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%; /* Make the button take up the full width of the container */
+}
+
+.search-button:hover {
+  background-color: #0056b3; /* Darken the button color on hover */
+}
+
+.student-panel {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.student-panel h2 {
+  margin-bottom: 15px;
+}
+
+.student-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.student-card {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.student-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; /* Make the photo circular */
+}
+
+.student-card h3 {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.student-card p {
+  font-size: 12px;
+  color: #777;
+}
