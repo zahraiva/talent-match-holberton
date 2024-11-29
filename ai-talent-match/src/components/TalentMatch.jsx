@@ -186,9 +186,205 @@ function TalentMatch() {
         photo: "/assets/students/Ferhad.jpeg",
       },
     ],
+    "Developing a system for real-time employee performance tracking": [
+      {
+        talent_name: "Hamida Allahverdiyeva",
+        position: "Frontend developer; author of 13 platforms",
+        techstack: "React, MERN, Python",
+        photo: "/assets/students/Hamida.jpeg"
+      },
+      {
+        talent_name: "Aziz Abbasov",
+        position: "Software Engineer with UI/UX experience",
+        techstack: "React, Python, Flask, HTML, CSS, Figma",
+        photo: "/assets/students/AzizAbbasov.jpg"
+      },
+      {
+        talent_name: "Muhammed Sultanov",
+        position: "Backend developer",
+        techstack: "Python, Flask",
+        photo: "/assets/students/MuhammedSultanov.jpg"
+      }
+    ],
+    "Digitizing and managing document archives": [
+      {
+        talent_name: "Hamida Allahverdiyeva",
+        position: "Frontend developer; author of 13 platforms",
+        techstack: "React, MERN, Python",
+        photo: "/assets/students/Hamida.jpeg"
+      },
+      {
+        talent_name: "Ruslan Hamidov",
+        position: "Full Stack developer with mentoring experience",
+        techstack: "Python, Ruby, NodeJS, React",
+        photo: "/assets/students/RuslanHamidov.jpeg"
+      },
+      {
+        talent_name: "Nahid Isayev",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/NahidIsayev.jpg"
+      }
+    ],
+    "E-learning platform for government schools": [
+      {
+        talent_name: "Nihad Amirov",
+        position: "Backend developer",
+        techstack: "C, Python, Java",
+        photo: "/assets/students/NihadAmirov.jpg"
+      },
+      {
+        talent_name: "Asmar Jabbarova",
+        position: "Frontend developer",
+        techstack: "HTML, CSS",
+        photo: "/assets/students/AsmarJabbarova.jpeg"
+      }
+    ],
+    "Flood prediction and early warning system": [
+      {
+        talent_name: "Urfan Musayev",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/UrfanMusayev.jpg"
+      },
+      {
+        talent_name: "Fehruz Panahaliyev",
+        position: "Full Stack developer",
+        techstack: "Python, React, Javascript, NodeJS",
+        photo: "/assets/students/FehruzPanahaliyev.jpg"
+      },
+      {
+        talent_name: "Revan Akhundov",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/RevanAxundov.jpeg"
+      }
+    ],
+    "IoT sensors for real-time managing office": [
+      {
+        talent_name: "Kamran Mahmudov",
+        position: "Backend developer with IoT experience",
+        techstack: "Python, C, C++",
+        photo: "/assets/students/KamranMahmudov.jpeg"
+      },
+      {
+        talent_name: "Nihad Shirinli",
+        position: "Full Stack developer",
+        techstack: "Python, React, Javascript, NodeJS",
+        photo: "/assets/students/Nihad Sirinli.png"
+      },
+      {
+        talent_name: "Kamal Abdullayev",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/KamalAbdullayev.jpeg"
+      }
+    ],
+    "Predictive analytics for drop-out rate reduction": [
+      {
+        talent_name: "Ilyas Hasanli",
+        position: "Backend developer",
+        techstack: "C, Python, RESTful API",
+        photo: "/assets/students/IlyasH.jpeg"
+      },
+      {
+        talent_name: "Laman Nazirli",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/LamanNazirli.png"
+      }
+    ],
+    "Predictive analytics for revenue generation strategies": [
+      {
+        talent_name: "Rauf Ahmadzada",
+        position: "Backend developer",
+        techstack: "C, Python, RESTful API",
+        photo: "/assets/students/RaufAhmadzada.jpeg"
+      },
+      {
+        talent_name: "Fakhri Amanov",
+        position: "Software engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/FakhriAmanov.jpg"
+      },
+      {
+        talent_name: "Ogtay Muradov",
+        position: "Backend developer with Cybersecurity experience",
+        techstack: "C, Python, Flask",
+        photo: "/assets/students/OgtayMuradov.jpeg"
+      }
+    ],
+    "Quality monitoring system with live dashboards": [
+      {
+        talent_name: "Aytaj Allahverdiyeva",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/AytajAllahverdiyeva.jpg"
+      },
+      {
+        "talent_name": "Simara Kerimli",
+        position: "Backend developer",
+        techstack: "C, Python, RESTful API",
+        photo: "/assets/students/SimaraKarimli.jpeg"
+      },
+      {
+        talent_name: "Nihad Namatli",
+        position: "Backend developer",
+        techstack: "C, Python, RESTful API",
+        photo: "/assets/students/NihadNamatli.jpg"
+      }
+    ],
+    "Smart attendance tracking for students and teachers": [
+      {
+        talent_name: "Kamran Mahmudov",
+        position: "Backend developer with IoT experience",
+        techstack: "Python, C, C++",
+        photo: "/assets/students/KamranMahmudov.jpeg"
+      },
+      {
+        talent_name: "Ilqar Askerov",
+        position: "Software Engineer",
+        techstack: null,
+        photo: "/assets/students/IlqarAskarov.jpg"
+      },
+      {
+        talent_name: "Fidan Huseynova",
+        position: "Software Engineer",
+        techstack: "C, Python, Flask, HTML, CSS",
+        photo: "/assets/students/FidanHuseynova.jpeg"
+      }
+    ],
+    "Waste management optimization using route planning algorithms": [
+      {
+        talent_name: "Aziz Abbasov",
+        position: "Software Engineer with UI/UX experience",
+        techstack: "React, Python, Flask, HTML, CSS, Figma",
+        photo: "/assets/students/AzizAbbasov.jpg"
+      },
+      {
+        talent_name: "Amin Aghayev",
+        position: "Full Stack developer",
+        techstack: "Python, React, Javascript, NodeJS",
+        photo: "/assets/students/AminAghayev.jpg"
+      },
+      {
+        talent_name: "Farhad Asgarzada",
+        position: "Frontend focused developer",
+        techstack: "HTML, CSS, React",
+        photo: "/assets/students/Ferhad.jpeg"
+      }
+    ],
+    "Mentor for staff for tech-related topics": [
+      {
+        talent_name: "Ruslan Hamidov",
+        position: "Full Stack developer with mentoring experience",
+        techstack: "Python, Ruby, NodeJS, React",
+        photo: "/assets/students/RuslanHamidov.jpeg"
+      }
+    ],
   };
   
-
+  
   const [displayProjects, setDisplayProjects] = useState(false);
   const [isLoading, setIsLoading] = useState(false); 
 
